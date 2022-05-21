@@ -17,7 +17,7 @@
 
 Access the location of your projects through the terminal and download the repository (ssh-version)
 ```bash
-$ git clone git@github.com:PedroPaiao/i-zoombies.git
+$ git clone git@github.com:PedroPaiao/trabalho-restful-tecnicas.git
 ```
 
 
