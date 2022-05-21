@@ -2,7 +2,7 @@ class AlunosController < ApplicationController
   before_action :set_aluno, only: [:show, :update, :destroy]
   
   def index
-    @alunos = Aluno.all
+    @alunos = Aluno.all.page(params[:pagina] || 1).per(params[:limite] || 10)
     render json: @alunos, status: :ok
   end
 
