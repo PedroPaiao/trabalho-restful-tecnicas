@@ -76,6 +76,8 @@ GEM
       reline (>= 0.2.7)
     digest (3.1.0)
     erubi (1.10.0)
+    faker (2.21.0)
+      i18n (>= 1.8.11, < 2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.10.0)
@@ -162,13 +164,14 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
+  faker
   puma (~> 5.0)
   rails (~> 7.0.3)
   sqlite3 (~> 1.4)
   tzinfo-data
 
 RUBY VERSION
-   ruby 3.0.0p0
+   ruby 3.0.4p208
 
 BUNDLED WITH
-   2.2.3
+   2.2.33
